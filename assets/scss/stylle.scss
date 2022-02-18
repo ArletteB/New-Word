@@ -39,3 +39,32 @@ header {
         }
     }
 }
+
+// MAIN
+// SECTION 1
+
+main {
+    #sect1 {
+        background-image: url(../img/new-world-amazon-jeu.jpg);
+        background-size: cover;
+        background-position: center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       height: 500px;
+        img {
+            width: 15%;
+            object-fit: cover;
+        }
+        
+        h1 {
+            color: white;
+            margin-top: 4rem;
+            font-weight: bold;
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+}
