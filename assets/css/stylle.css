@@ -55,7 +55,7 @@ main #sect1 img {
 }
 main #sect1 h1 {
   color: white;
-  margin-top: 4rem;
+  margin-top: 2rem;
   font-weight: bold;
   text-align: center;
   font-size: 2rem;
@@ -68,6 +68,7 @@ main #sect2 {
 }
 main #sect2 h2 {
   font-size: 1.5rem;
+  margin-top: 2rem;
 }
 main #sect2 p {
   margin: 2rem 0;
@@ -84,6 +85,39 @@ main #sect2 .btn {
 main #sect2 .btn:hover {
   color: orange;
   background-color: white;
+}
+main #sect3 h2 {
+  text-align: center;
+  margin: 2rem;
+}
+main #sect3 .sect3-content {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+main #sect3 .sect3-content .section {
+  width: 350px;
+  height: 450px;
+  justify-content: center;
+  box-shadow: 1px 1px;
+  background-color: #1a1616;
+  margin: 15px;
+}
+main #sect3 .sect3-content .section h3 {
+  color: black;
+  background-color: white;
+}
+main #sect3 .sect3-content .section h4 {
+  margin-left: 10px;
+  margin-top: 2rem;
+}
+main #sect3 .sect3-content .section p {
+  margin-left: 10px;
+  margin-top: 1rem;
+}
+main #sect3 .sect3-content img {
+  width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=stylle.css.map */

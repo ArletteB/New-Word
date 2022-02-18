@@ -53,7 +53,7 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       height: 500px;
+        height: 500px;
         img {
             width: 15%;
             object-fit: cover;
@@ -61,7 +61,7 @@ main {
         
         h1 {
             color: white;
-            margin-top: 4rem;
+            margin-top: 2rem;
             font-weight: bold;
             text-align: center;
             font-size: 2rem;
@@ -76,6 +76,7 @@ main {
     width: 56%;
     h2 {
         font-size: 1.5rem;
+        margin-top: 2rem;
     }
      p {  
         margin: 2rem 0;   
@@ -96,5 +97,49 @@ main {
     }
       
 }
+    // Troisième Section
 
+#sect3 {
+    h2 {
+        text-align: center;
+       margin: 2rem;
+    }
+    // PARTIE DU BLOC
+    .sect3-content {
+        display: flex;
+        justify-content: center;
+        color: white;
+        .section {
+            width: 350px;
+            height: 450px;
+            justify-content: center;
+            box-shadow: 1px 1px;
+            background-color: rgb(26, 22, 22);
+            margin: 15px;
+        
+        }
+        .section h3 {
+            color: black;
+            background-color: white;
+           
+        }
+        
+        .section h4 {
+            margin-left: 10px;
+            margin-top: 2rem;
+        }
+        
+        .section p {
+            margin-left: 10px;
+            margin-top: 1rem;
+        }
+        
+         img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    
+        
+    }
 }
