@@ -15,25 +15,26 @@ a {
   text-decoration: none;
 }
 
-header nav {
-  background-color: white;
-}
 header nav ul {
   display: flex;
   justify-content: center;
-  list-style: none;
+  font-weight: bold;
+  padding: 1.5rem 0;
 }
 header nav ul li {
-  text-decoration: none;
+  list-style: none;
   color: black;
-  padding: 1rem 2rem;
+  padding: 0 1.5rem;
 }
 header nav ul li a {
   color: black;
+  text-decoration: none;
 }
 header nav ul li a:hover {
-  color: white;
-  background-color: #f0bd16;
+  color: #f0bd16;
+}
+header :not(:last-child) {
+  border-right: 1px solid black;
 }
 
 main {
@@ -118,6 +119,31 @@ main #sect3 .sect3-content .section p {
 main #sect3 .sect3-content img {
   width: 100%;
   object-fit: cover;
+}
+
+footer {
+  margin-top: 4rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer img {
+  width: 5%;
+  padding: 1rem 0;
+}
+footer ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+footer ul li {
+  padding: 0rem 1rem;
+}
+
+footer ul li:not(:last-child) {
+  border-right: 1px solid white;
 }
 
 /*# sourceMappingURL=stylle.css.map */
