@@ -146,4 +146,54 @@ footer ul li:not(:last-child) {
   border-right: 1px solid white;
 }
 
+@media screen and (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li {
+    padding: 1rem;
+  }
+  header :not(:last-child) {
+    border-right: none;
+  }
+
+  main #sect1 img {
+    width: 50%;
+  }
+  main #sect1 h1 {
+    font-size: 1.3rem;
+  }
+  main #sect2 {
+    width: 80%;
+  }
+  main #sect3 .sect3-content {
+    flex-direction: column;
+  }
+  main #sect3 .sect3-content .section {
+    width: 85%;
+    height: 520px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer img {
+    width: 30%;
+  }
+  footer ul {
+    flex-direction: column;
+  }
+  footer ul li {
+    padding: 0.8rem;
+  }
+
+  footer ul li:not(:last-child) {
+    border-right: none;
+  }
+}
+
 /*# sourceMappingURL=stylle.css.map */
