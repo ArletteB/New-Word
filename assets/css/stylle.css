@@ -15,4 +15,25 @@ a {
   text-decoration: none;
 }
 
+header nav {
+  background-color: white;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+header nav ul li {
+  text-decoration: none;
+  color: black;
+  padding: 1rem 2rem;
+}
+header nav ul li a {
+  color: black;
+}
+header nav ul li a:hover {
+  color: white;
+  background-color: #f0bd16;
+}
+
 /*# sourceMappingURL=stylle.css.map */
