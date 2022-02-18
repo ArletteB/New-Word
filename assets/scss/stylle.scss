@@ -67,4 +67,34 @@ main {
             font-size: 2rem;
         }
     }
+     /* DEUXIEME SECTION */
+
+#sect2 {
+    text-align: center;
+    padding:2rem 0;;
+    margin: 0 auto;
+    width: 56%;
+    h2 {
+        font-size: 1.5rem;
+    }
+     p {  
+        margin: 2rem 0;   
+    }
+    .btn {
+        color: white;
+        background-color: orange;
+        text-decoration: none;
+        padding: 7px 20px;
+        border-radius: 5px;
+        border: 1px solid orange;
+        display: inline-block;
+        &:hover {
+            color: orange;
+            background-color: white
+        }
+
+    }
+      
+}
+
 }

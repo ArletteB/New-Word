@@ -36,6 +36,9 @@ header nav ul li a:hover {
   background-color: #f0bd16;
 }
 
+main {
+  /* DEUXIEME SECTION */
+}
 main #sect1 {
   background-image: url(../img/new-world-amazon-jeu.jpg);
   background-size: cover;
@@ -56,6 +59,31 @@ main #sect1 h1 {
   font-weight: bold;
   text-align: center;
   font-size: 2rem;
+}
+main #sect2 {
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0 auto;
+  width: 56%;
+}
+main #sect2 h2 {
+  font-size: 1.5rem;
+}
+main #sect2 p {
+  margin: 2rem 0;
+}
+main #sect2 .btn {
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: 1px solid orange;
+  display: inline-block;
+}
+main #sect2 .btn:hover {
+  color: orange;
+  background-color: white;
 }
 
 /*# sourceMappingURL=stylle.css.map */
